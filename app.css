@@ -5,13 +5,30 @@ body{
 .navigation{
     box-shadow: 0 0 32px rgba(0,0,0,.15);
 }
+.logo{
+    display:none;
+}
 .top-navigation{
     background-color: #000;
-    color: hsla(0,0%,100%,.6);
+    
     display: flex;
     flex-direction: row;
     width: 100%;
 
+}
+.top-nav-link{
+    color: hsla(0,0%,100%,.6);
+    text-decoration: none;
+}
+.bottom-nav-link{
+    color: #aaa;
+    text-decoration: none;
+}
+.top-nav-link:hover{
+    color:#fff;
+}
+.bottom-nav-link:hover{
+    color:#000;
 }
 
 .top-navigation ul{
@@ -26,7 +43,7 @@ body{
     line-height: 0;
 }
 .bottom-navigation{
-    color: #aaa;
+    
     background-color: #fff;
     display: flex;
     flex-direction: row;
@@ -103,8 +120,15 @@ body{
     display: flex;
     flex-direction: column;
     position: absolute;
-    padding: 10px 15px;
+    padding: 20px 15px;
     
+}
+.author-link{
+    color:#aaa;
+    text-decoration:none;
+}
+.author-link:hover{
+    color:#fff;
 }
 
 .first-article-div-two-text span{
@@ -121,7 +145,7 @@ body{
     display: flex;
     flex-direction: column;
     position: absolute;
-    padding: 10px 15px;
+    padding: 20px 15px;
     width: 60%;
 }
 .first-article-description span{
@@ -139,6 +163,10 @@ body{
 .first-article-div-two-text p{
   color:  #aaa;
   margin: 0;
+}
+.first-section-link{
+    color:#fff;
+    text-decoration: none;
 }
 .first-section-img-1{
     position: relative; 
@@ -183,7 +211,7 @@ figcaption{
 }
 .latest-news-h2{
     padding: 20px 0px 0px 5px;
-    color: #f42;
+    
 }
 .latest-news-img{
     width:100%;
@@ -194,6 +222,17 @@ figcaption{
     font-family: sans-serif;
     margin:5px 5px;
 }
+.latest-news-link{
+    text-decoration:none;
+    color: #f42;
+}
+.bar-link{
+    text-decoration:none;
+    color: #f42;
+}
+.latest-news-link:hover{
+    color:#000;
+}
 .latest-news-span{
     color: #aaa;
     font-size: 14px;
@@ -201,6 +240,11 @@ figcaption{
 }
 .latest-news-author{
     margin-right:10px;
+    color: #aaa;
+    text-decoration:none;
+}
+.latest-news-author:hover{
+    color: #777;
 }
 .index-co-second-part{
     display:flex;
@@ -211,6 +255,7 @@ figcaption{
     justify-content: space-between;
     align-items: baseline;
     color: #f42;
+    margin: 3px;
 }
 .index-co-header-ul{
     display: flex;
@@ -219,7 +264,7 @@ figcaption{
     list-style:none;
     margin: 0 4px;
 }
-.funding-rounds{
+.funding-rounds, .funding-rounds-last{
     width:25%;
     display: flex;
     flex-direction:column;
@@ -229,19 +274,41 @@ figcaption{
     padding: 10px 10px;
     background-color: rgba(255,68,34,.08);
 }
+.funding-rounds-link{
+    color:#373737;
+    text-decoration:none;
+}
+.funding-rounds-p-link{
+    color:#aaa;
+    text-decoration:none;
+}
 .funding-rounds-header-top{
     background-color: #f42;
-    color:#fff;
     padding: 10px;
     font-size: 18px;
     font-weight: 600;
     display: flex;
+}
+.header-link{
+    color:#fff;
+    text-decoration:none;
 }
 .funding-rounds-img{
     width:60px;
     height:60px;
     position: absolute;
     margin: 10px 10px;
+}
+.price{
+    color:#000;
+    text-decoration:none;
+    font-weight: 600;
+}
+.series{
+    color:#aaa;
+    text-decoration:none;
+    font-size: 13px;
+    font-family: sans-serif;
 }
 .funding-rounds-header-top-p{
     margin: 0;
@@ -253,7 +320,7 @@ figcaption{
     margin-left: auto;
 }
 .funding-rounds-ul{
-    padding: 0 0 15px 15px;
+    padding: 0 0 10px 15px;
     border-bottom:3px solid rgba(255,68,34,.08);
 }
 .funding-rounds-li{
@@ -345,7 +412,7 @@ figcaption{
     flex-direction: column;
     width: 96%;
 }
-.funding-rounds{
+.funding-rounds,  .funding-rounds-last{
     width:100%;
 }
 .bars{
@@ -357,8 +424,92 @@ figcaption{
     color:#f42;
     font-size: 20px;
 }
-search{
+.search{
     font-size: 20px;
 }
+.logo{
+    height: 48px;
+    width: 106px;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-group{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.navigation{
+    display:flex;
+}
+.logo img{
+    width: 66px;
+    height: 16px;
+}
 
+}
+@media only screen and (min-width:601px) and (max-width: 1024px){
+  
+    main{
+        margin-top: 40px;
+    }
+    .first-article-div-img{
+        height:544px;
+    }
+    .first-article-div-two-text h1{
+        font-size:20px;
+    }
+    .first-section-img-1{
+        height: 267px;
+    }
+    .first-section-img-2{
+        height: 267px;
+    }
+    .latest-news-div{
+        width:33%;
+    }
+    .latest-news{
+        width:96%;
+    }
+    .index-co-header-ul{
+        flex-direction: column;
+        padding: 0;
+        line-height: 2;
+    }
+    .index-co-header-li-line{
+        display: none;
+    }
+    .index-co-header-div{
+        flex-direction: column;
+    }
+    .index-co-header-div h2{
+        margin-bottom: 0;
+    }
+    .funding-rounds-last{
+        display:none;
+    }
+    .funding-rounds{
+        width:33%;
+    }
+    .logo{
+        height: 80px;
+        width: 106px;
+        background: linear-gradient(to bottom right,#c09,#f42 85%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-group{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .navigation{
+        display:flex;
+    }
+    .logo img{
+        width: 66px;
+        height: 16px;
+    }
 }
