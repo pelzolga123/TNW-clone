@@ -10,11 +10,9 @@ body{
 }
 .top-navigation{
     background-color: #000;
-    
     display: flex;
     flex-direction: row;
     width: 100%;
-
 }
 .top-nav-link{
     color: hsla(0,0%,100%,.6);
@@ -30,98 +28,91 @@ body{
 .bottom-nav-link:hover{
     color:#000;
 }
-
 .top-navigation ul{
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
     padding: 0;
 }
 .top-navigation li{
+    line-height: 0;
     list-style: none;
     margin-left:15px;
-    line-height: 0;
 }
 .bottom-navigation{
-    
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    width: 100%;
     height: 48px;
     justify-content: space-between;
-    
+    width: 100%;
 }
-
 .bottom-navigation li{
     list-style: none;
     margin-left:15px;
 }
 .bottom-navigation ul{
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
     padding: 0;
 }
 .search{
-    display: flex;
     align-items: center;
     border-left: 1px solid  #aaa;
-    width: 48px;
+    display: flex;
     opacity: .25;
+    width: 48px;
 }
 .bars{
     display: none;
 }
-
 .search a{
     margin-left: auto;
     margin-right: auto;
 }
 .first-section{
     margin-top:7px;
-    
 }
 .first-article{
     display: flex;
-    width:99%;
     margin-left: auto;
     margin-right: auto;
+    width:99%;
 }
 .first-article-div-one{
-    width: 67%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 5px;
+    width: 67%;
 }
 .first-article-div-two{
+    align-items: flex-end;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     justify-content: end;
     width: 35%;
 }
 .first-article-div-two-inner-one{
-    justify-content: end;
-    display: flex;
     align-items: flex-end;
+    display: flex;
+    justify-content: end;
     padding:5px;
 }
 
 .first-article-div-two-inner-two{
-    justify-content: end;
-    display: flex;
     align-items: flex-end;
+    display: flex;
+    justify-content: end;
     padding:5px;
 }
 .first-article-div-two-text{
-    z-index: 1;
     display: flex;
     flex-direction: column;
-    position: absolute;
     padding: 20px 15px;
-    
+    position: absolute;
+    z-index: 1;
 }
 .author-link{
     color:#aaa;
@@ -130,66 +121,62 @@ body{
 .author-link:hover{
     color:#fff;
 }
-
 .first-article-div-two-text span{
     color:#fff;
 }
 .first-article-div-two-text h1{
     color:#fff;
-    margin: 0;
     font-size: 28px;
-
+    margin: 0;
 }
 .first-article-description{
-    z-index: 1;
     display: flex;
     flex-direction: column;
-    position: absolute;
     padding: 20px 15px;
+    position: absolute;
     width: 60%;
+    z-index: 1;
 }
 .first-article-description span{
     color:#fff;
 }
 .first-article-description h1{
     color:#fff;
-    margin: 0;
     font-size: 48px;
+    margin: 0;
 }
 .first-article-description p{
     color:  #aaa;
     margin: 0;
 }
 .first-article-div-two-text p{
-  color:  #aaa;
-  margin: 0;
+    color:  #aaa;
+    margin: 0;
 }
 .first-section-link{
     color:#fff;
     text-decoration: none;
 }
 .first-section-img-1{
-    position: relative; 
-    width:100%;
-    filter: brightness(0.4)
-}
-.first-section-img-2{
-    width:100%;
-    position: relative; 
     filter: brightness(0.4);
-    
+    position: relative; 
+    width:100%;   
 }
-
+.first-section-img-2{  
+    filter: brightness(0.4);
+    position: relative; 
+    width:100%;
+}
 .first-article-div-img{  
+    filter: brightness(0.4);
     position: relative; 
     width: 100%;
-    filter: brightness(0.4);
 }
 .first-article-div-one-text{
-    z-index: 1;
     display: flex;
     flex-direction: column;
     position: absolute;
+    z-index: 1;
 }
 figure{
     margin:0 5px;
@@ -198,9 +185,9 @@ figcaption{
     margin: 5px 0px 20px 0;
 }
 .latest-news{
-    width:80%;
     margin-left: auto;
     margin-right: auto;
+    width:80%;
 }
 .latest-news-article{
     display:flex;
@@ -210,25 +197,20 @@ figcaption{
     width:25%;
 }
 .latest-news-h2{
-    padding: 20px 0px 0px 5px;
-    
+    padding: 20px 0px 0px 5px;  
 }
 .latest-news-img{
-    width:100%;
     height:140px;
+    width:100%;
 }
 .latest-news-h3{
-    font-size: 16px;
     font-family: sans-serif;
-    margin:5px 5px;
+    font-size: 16px;
+    margin:5px 0;
 }
-.latest-news-link{
-    text-decoration:none;
+.bar-link, .latest-news-link{
     color: #f42;
-}
-.bar-link{
     text-decoration:none;
-    color: #f42;
 }
 .latest-news-link:hover{
     color:#000;
@@ -236,11 +218,11 @@ figcaption{
 .latest-news-span{
     color: #aaa;
     font-size: 14px;
-    margin:5px 5px;
+    margin:5px 0;
 }
 .latest-news-author{
-    margin-right:10px;
     color: #aaa;
+    margin-right:10px;
     text-decoration:none;
 }
 .latest-news-author:hover{
@@ -251,10 +233,10 @@ figcaption{
     flex-direction:row;
 }
 .index-co-header-div{
-    display:flex;
-    justify-content: space-between;
     align-items: baseline;
     color: #f42;
+    display:flex;
+    justify-content: space-between;
     margin: 3px;
 }
 .index-co-header-ul{
@@ -265,14 +247,14 @@ figcaption{
     margin: 0 4px;
 }
 .funding-rounds, .funding-rounds-last{
-    width:25%;
     display: flex;
     flex-direction:column;
     margin: 0 5px;
+    width:25%;
 }
 .funding-rounds-header{
-    padding: 10px 10px;
     background-color: rgba(255,68,34,.08);
+    padding: 10px 10px;
 }
 .funding-rounds-link{
     color:#373737;
@@ -284,54 +266,55 @@ figcaption{
 }
 .funding-rounds-header-top{
     background-color: #f42;
-    padding: 10px;
+    display: flex;
     font-size: 18px;
     font-weight: 600;
-    display: flex;
+    padding: 10px;
 }
 .header-link{
     color:#fff;
     text-decoration:none;
 }
 .funding-rounds-img{
-    width:60px;
     height:60px;
-    position: absolute;
     margin: 10px 10px;
+    position: absolute;
+    width:60px;
 }
 .price{
     color:#000;
-    text-decoration:none;
     font-weight: 600;
+    text-decoration:none;
 }
 .series{
     color:#aaa;
-    text-decoration:none;
     font-size: 13px;
     font-family: sans-serif;
+    text-decoration:none;
 }
 .funding-rounds-header-top-p{
     margin: 0;
 }
 .founding-rounds-text-div{
-    width: 65%;
     display: flex;
     flex-direction: column;
     margin-left: auto;
+    width: 65%;
 }
 .funding-rounds-ul{
-    padding: 0 0 10px 15px;
     border-bottom:3px solid rgba(255,68,34,.08);
+    padding: 0 0 10px 15px;
 }
 .funding-rounds-li{
-    list-style:none;
     line-height:2;
+    list-style:none;
 }
 .funding-rounds-p{
-    font-size: 14px;
     color:#666;
+    font-size: 14px;
     padding: 0 15px 15px 15px;
 }
+
 @media only screen and (max-width: 640px){
 .top-navigation{
     display:none;
@@ -352,10 +335,10 @@ figcaption{
     width:100%
 }
 .first-article-div-img{
-    width: 100%;
-    height: 170px;
+    height: 180px;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }    
 .first-section-img-1{
     height: 170px;
@@ -380,15 +363,18 @@ figcaption{
 }
 .latest-news-img{
     height:75px;
+    margin-right: 10px;
     width:75px;
 }
 .latest-news-div{
     display:flex;
     height: 85px;
 }
-
+figure{
+    display:flex;
+}
 figcaption{
-    margin: 0 0 10px 0;
+    margin: 0 0 10px 0; 
 }
 .latest-news-h3{
     font-size: 14px;
@@ -402,8 +388,8 @@ figcaption{
 }
 .index-co-header-ul{
     flex-direction: column;
-    padding: 0;
     line-height: 2;
+    padding: 0;
 }
 .index-co-header-li-line{
     display: none;
@@ -416,24 +402,24 @@ figcaption{
     width:100%;
 }
 .bars{
-    display: flex;
     align-items: center;
     border-left: 1px solid rgba(187, 187, 187, .25);
-    width: 48px;
-    justify-content: center;
     color:#f42;
+    display: flex;
     font-size: 20px;
+    justify-content: center;
+    width: 48px;
 }
 .search{
     font-size: 20px;
 }
 .logo{
-    height: 48px;
-    width: 106px;
+    align-items: center;
     background: linear-gradient(to bottom right,#c09,#f42 85%);
     display: flex;
+    height: 48px;
     justify-content: center;
-    align-items: center;
+    width: 106px;
 }
 .menu-group{
     display: flex;
@@ -444,10 +430,9 @@ figcaption{
     display:flex;
 }
 .logo img{
-    width: 66px;
     height: 16px;
+    width: 66px;
 }
-
 }
 @media only screen and (min-width:601px) and (max-width: 1024px){
   
@@ -474,8 +459,8 @@ figcaption{
     }
     .index-co-header-ul{
         flex-direction: column;
-        padding: 0;
         line-height: 2;
+        padding: 0;
     }
     .index-co-header-li-line{
         display: none;
@@ -493,12 +478,12 @@ figcaption{
         width:33%;
     }
     .logo{
-        height: 80px;
-        width: 106px;
+        align-items: center;
         background: linear-gradient(to bottom right,#c09,#f42 85%);
         display: flex;
+        height: 80px;
         justify-content: center;
-        align-items: center;
+        width: 106px;
     }
     .menu-group{
         display: flex;
@@ -509,7 +494,7 @@ figcaption{
         display:flex;
     }
     .logo img{
-        width: 66px;
         height: 16px;
+        width: 66px;   
     }
 }
