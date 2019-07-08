@@ -286,7 +286,7 @@ figcaption {
 }
 .text-on-image {
   position: absolute;
-  top: 170px;
+  top: 150px;
   left: 10px;
   z-index: 1;
   width: 90%;
