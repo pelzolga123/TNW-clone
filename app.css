@@ -400,15 +400,14 @@ figcaption > h3 {
 }
 footer {
   background-color: #131313;
-  height: 250px;
+  height: 230px;
 }
 .social-icons {
-  margin: 0 auto;
+  width: 100%;
   padding: 50px 0 20px 0;
-
-  width: 30%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 .icon {
   position: relative;
@@ -463,16 +462,19 @@ footer {
   left: 11px;
 }
 .company-links {
-  width: 25%;
-  margin: 0 auto;
+  padding-bottom: 30px;
 }
 .company-links ul {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  width: calc(50% - 3rem);
+  justify-content: center;
   list-style-type: none;
   align-items: center;
   padding-left: 0;
+  margin: 0 auto;
+}
+.company-links ul > li {
+  padding-right: 10px;
 }
 .company-links ul a {
   font-size: 0.7rem;
@@ -587,5 +589,40 @@ footer {
   }
   search {
     font-size: 20px;
+  }
+  .app-gear-tech-articles {
+    display: flex;
+    flex-direction: column;
+  }
+  .deals {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+  }
+  .latest-deal-header {
+    display: flex;
+    flex-direction: row !important;
+  }
+  .latest-deal-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .latest-deal-div figure > img {
+    width: 75px;
+    height: 75px;
+  }
+  .latest-deal-div figcaption {
+    font-size: 0.6rem;
+  }
+  .latest-deal-div figcaption > h3 {
+    width: 100%;
+  }
+  .bottom-line {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-line > span {
+    margin: 0 auto;
   }
 }
