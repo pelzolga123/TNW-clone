@@ -774,4 +774,34 @@ footer {
     height: 16px;
     width: 66px;
   }
+
+  .app-gear-tech-articles {
+    display: grid;
+    width: 95% !important;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .latest-deals {
+    width: 95% !important;
+    margin-bottom: 20px;
+  }
+  .deals {
+    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 15rem;
+    grid-row-gap: 2rem;
+  }
+  .latest-deal-header {
+    display: flex;
+    flex-direction: row !important;
+  }
+  .latest-deal-div figcaption {
+    font-size: 1vmin;
+  }
+  .latest-deal-div figcaption > h3 {
+    width: 100% !important;
+    margin-top: 0;
+    font-size: 2vmin;
+  }
 }
