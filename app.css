@@ -594,8 +594,10 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .latest-deals {
+    width: 80% !important;
+  }
   .deals {
-    width: 96%;
     display: flex;
     flex-direction: column;
   }
@@ -605,7 +607,7 @@ footer {
   }
   .latest-deal-div {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 10px;
   }
   .latest-deal-div figure > img {
@@ -613,10 +615,12 @@ footer {
     height: 75px;
   }
   .latest-deal-div figcaption {
-    font-size: 0.6rem;
+    font-size: 2vmin;
   }
   .latest-deal-div figcaption > h3 {
     width: 100%;
+    margin-top: 0;
+    font-size: 3vmin;
   }
   .bottom-line {
     display: flex;
