@@ -8,6 +8,12 @@ body {
 .logo {
   display: none;
 }
+.navigation{
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
 .top-navigation {
   background-color: #000;
   display: flex;
@@ -63,6 +69,9 @@ body {
   display: flex;
   opacity: 0.25;
   width: 48px;
+}
+main{
+  margin-top: 90px;
 }
 .bars {
   display: none;
