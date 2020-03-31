@@ -3,7 +3,7 @@
 <img src="https://i.ibb.co/s2zR5KB/Screenshot-from-2020-03-16-17-53-58.png" alt="Screenshot-from-2020-03-16-17-53-58" border="0">
 
 ## About The Project
-This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
+This project consists of replicating The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
 ## Live version
 [TNW clone](https://rawcdn.githack.com/pelzolga123/TNW-clone/089527570f043edd4c3d09c388b8dd4e11eff1a0/index.html)
@@ -11,6 +11,14 @@ This project consists of replicating the The Next Web website putting emphasis o
 ### Built With
 * HTML5
 * CSS
+
+### Development
+
+* Clone project
+```
+git clone https://github.com/pelzolga123/TNW-clone.git
+```
+* Open `index.html` file with a browser.
 
 ## Authors
 
